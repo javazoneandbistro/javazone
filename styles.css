@@ -3,14 +3,13 @@
     padding: 0;
 }
 
-div{
-    margin: 20px;
-    padding: 15px;
-    align-items: center;
+.carousel .item {
+    height: 550px;
 }
-
-p{
-    display: inline-block;
-    text-align: center;
-    align-items: center;
+  
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 550px;
 }
